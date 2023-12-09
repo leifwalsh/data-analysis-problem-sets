@@ -13,7 +13,9 @@
 	},
 	"customizations": {
 		"codespaces": {
-			"openFiles": ["README.md"]
+			"openFiles": [
+				"README.md"
+			]
 		},
 		"vscode": {
 			"extensions": [
@@ -26,7 +28,12 @@
 				"ms-python.black-formatter",
 				"ms-toolsai.vscode-jupyter-powertoys",
 				"tamasfe.even-better-toml"
-			]
+			],
+			"settings": {
+				"workbench.editorAssociations": {
+					"*.md": "vscode.markdown.preview.editor"
+				}
+			}
 		}
 	}
 
