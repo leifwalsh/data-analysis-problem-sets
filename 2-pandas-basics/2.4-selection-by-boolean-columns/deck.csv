@@ -9,7 +9,7 @@ spades,♠,8,8
 spades,♠,9,9
 spades,♠,10,10
 spades,♠,J,10
-spades,♠,O,10
+spades,♠,Q,10
 spades,♠,K,10
 spades,♠,A,11
 diamonds,♦,2,2
@@ -22,7 +22,7 @@ diamonds,♦,8,8
 diamonds,♦,9,9
 diamonds,♦,10,10
 diamonds,♦,J,10
-diamonds,♦,O,10
+diamonds,♦,Q,10
 diamonds,♦,K,10
 diamonds,♦,A,11
 clubs,♣,2,2
@@ -35,7 +35,7 @@ clubs,♣,8,8
 clubs,♣,9,9
 clubs,♣,10,10
 clubs,♣,J,10
-clubs,♣,O,10
+clubs,♣,Q,10
 clubs,♣,K,10
 clubs,♣,A,11
 hearts,♥,2,2
@@ -48,6 +48,6 @@ hearts,♥,8,8
 hearts,♥,9,9
 hearts,♥,10,10
 hearts,♥,J,10
-hearts,♥,O,10
+hearts,♥,Q,10
 hearts,♥,K,10
 hearts,♥,A,11
