@@ -39,13 +39,27 @@ Learn the essential pandas operations you'll use frequently.
 
 ### Problem Set 2.1: [numpy arrays, Series, Dataframe](./2-pandas-basics/2.1-numpy-arrays-series-dataframe/2.1-numpy-arrays-series-dataframe.ipynb)
 
+Learn about the core data structures in pandas:
+- numpy arrays, which pandas builds on
+- The 1-dimensional Series
+- The 2-dimensional DataFrame
+
 ### Problem Set 2.2: [Reading CSV and JSON data](./2-pandas-basics/2.2-reading-csv-and-json-data/2.2-reading-csv-and-json-data.ipynb)
+
+Learn how to read data from CSV and JSON files using pandas DataFrames.
 
 ### Problem Set 2.3: [Row and Column selection by location](./2-pandas-basics/2.3-row-and-column-selection-by-location/2.3-row-and-column-selection-by-location.ipynb)
 
+Explore how to select specific rows and columns in a DataFrame.
+
 ### Problem Set 2.4: [Selection by Boolean columns](./2-pandas-basics/2.4-selection-by-boolean-columns/2.4-selection-by-boolean-columns.ipynb)
 
+Explore how to select rows in a DataFrame based on a condition, rather than
+their position (or label).
+
 ### Problem Set 2.5: [Indexes: loc[] vs iloc[]](./2-pandas-basics/2.5-indexes-loc-vs-iloc/2.5-indexes-loc-vs-iloc.ipynb)
+
+Explore what "indexes" are in Series and DataFrames.
 
 ### Problem Set 2.6: [Accessors: dates, times, and strings](./2-pandas-basics/2.6-accessors-dates-times-and-strings/2.6-accessors-dates-times-and-strings.ipynb)
 
