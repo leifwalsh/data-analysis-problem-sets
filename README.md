@@ -16,9 +16,10 @@ The easiest way to get started is to open the problem sets in Jupyter Lite,
 in your browser. Some Python packages won't come preinstalled, but you can do
 most of the initial chapters without installing anything.
 
-Click this badge:
+Open this project here:
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://leifwalsh.github.io/data-analysis-problem-sets/lab/index.html)
-and open `README.md` to get started. You can click the links to problem sets
+
+Then, open `README.md` to get started. You can click the links to problem sets
 from there.
 
 ### Codespaces
