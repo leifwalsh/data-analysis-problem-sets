@@ -23,7 +23,9 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build the JupyterLite site
         run: |
-          jupyter lite build --contents . --output-dir dist
+          mkdir content
+          cp -r README.md [0-9]-* content
+          jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
