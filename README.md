@@ -22,6 +22,10 @@ Open this project here:
 Then, open `README.md` to get started. You can click the links to problem sets
 from there.
 
+You can also open any of the problem sets directly from GitHub, by clicking
+**"Click here to open this notebook in your browser"** at the top of any
+notebook.
+
 ### Codespaces
 
 If you have a GitHub account, you can open this project in a Codespace. This
