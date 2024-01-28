@@ -144,7 +144,7 @@ rich==13.7.0
 rpds-py==0.13.2
 ruff==0.1.11
 scipy==1.11.4
-seaborn==0.13.1
+seaborn==0.13.2
 send2trash==1.8.2
 shapely==2.0.2
 six==1.16.0
