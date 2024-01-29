@@ -76,7 +76,7 @@ jupyterlab-night==0.4.6
 jupyterlab-pygments==0.3.0
 jupyterlab-server==2.25.2
 jupyterlab-widgets==3.0.9
-jupyterlite-core==0.2.2
+jupyterlite-core==0.2.3
 jupyterlite-pyodide-kernel==0.2.1
 jupyterlite-xeus-sqlite==0.2.1
 kiwisolver==1.4.5
