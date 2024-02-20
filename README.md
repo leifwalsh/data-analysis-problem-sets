@@ -95,17 +95,19 @@ their position (or label).
 
 Explore what "indexes" are in Series and DataFrames.
 
-#### Problem Set 2.6: [Accessors: dates, times, and strings](./2-pandas-basics/2.6-accessors-dates-times-and-strings/2.6-accessors-dates-times-and-strings.ipynb)
+#### Problem Set 2.6: [Indexes and concatenation](./2-pandas-basics/2.6-indexes-and-concatenation/2.6-indexes-and-concatenation.ipynb)
 
-#### Problem Set 2.7: [Combining tables: concat, merge, join](./2-pandas-basics/2.7-combining-tables-concat-merge-join/2.7-combining-tables-concat-merge-join.ipynb)
+#### Problem Set 2.7: [Merge and join](./2-pandas-basics/2.7-merge-and-join/2.7-merge-and-join.ipynb)
 
-#### Problem Set 2.8: [Aggregations](./2-pandas-basics/2.8-aggregations/2.8-aggregations.ipynb)
+#### Problem Set 2.8: [Accessors: dates, times, and strings](./2-pandas-basics/2.6-accessors-dates-times-and-strings/2.6-accessors-dates-times-and-strings.ipynb)
 
-#### Problem Set 2.9: [Pivot Tables and groupby](./2-pandas-basics/2.9-pivot-tables-and-groupby/2.9-pivot-tables-and-groupby.ipynb)
+#### Problem Set 2.9: [Aggregations](./2-pandas-basics/2.8-aggregations/2.8-aggregations.ipynb)
 
-#### Problem Set 2.10: [Immutable style](./2-pandas-basics/2.10-immutable-style/2.10-immutable-style.ipynb)
+#### Problem Set 2.10: [Pivot Tables and groupby](./2-pandas-basics/2.9-pivot-tables-and-groupby/2.9-pivot-tables-and-groupby.ipynb)
 
-#### Problem Set 2.11: [NaN and other gotchas](./2-pandas-basics/2.11-nan-and-other-gotchas/2.11-nan-and-other-gotchas.ipynb)
+#### Problem Set 2.11: [Immutable style](./2-pandas-basics/2.10-immutable-style/2.10-immutable-style.ipynb)
+
+#### Problem Set 2.12: [NaN and other gotchas](./2-pandas-basics/2.11-nan-and-other-gotchas/2.11-nan-and-other-gotchas.ipynb)
 
 ### Chapter 3: Visualization basics
 
