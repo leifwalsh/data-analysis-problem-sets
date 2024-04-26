@@ -23,11 +23,11 @@ nb.cells.clear()
 intro_markdown = """
 # Problem Set 3.2: Multiple Series and Stacked Grouped Charts
 
-In this section, we will delve into advanced visualization techniques using NFL team performance data. We'll start by understanding how to plot multiple series, which is crucial when comparing different categories or groups over a period. This technique helps in identifying trends and patterns across groups.
+Welcome to the tutorial on advanced data visualization techniques using the NFL team performance data. In this section, we will cover how to effectively compare and analyze data across different categories or groups over time using multiple series plots. This is a key skill in data analysis that can help uncover trends and patterns that are not immediately obvious.
 
-Next, we'll explore stacked and grouped bar charts. Stacked bar charts are excellent for comparing the part-to-whole relationships within categories over time, while grouped bar charts allow us to compare individual categories side by side. These charts are particularly useful in breaking down complex data into more digestible insights.
+We will also dive into the intricacies of stacked and grouped bar charts. These types of charts are powerful tools for breaking down and understanding complex datasets. Stacked bar charts allow us to examine part-to-whole relationships within categories, while grouped bar charts enable us to compare these categories side by side.
 
-By the end of this tutorial, you'll have a solid understanding of these visualization techniques and how to implement them using pandas and matplotlib. Let's get started by loading our data and setting up our environment.
+Throughout this tutorial, we will use pandas for data manipulation and matplotlib for creating our visualizations. By the end of this section, you will be equipped with the knowledge to implement these visualization techniques and apply them to your own data analysis projects. Let's begin by setting up our environment and loading the data we will be working with.
 """
 
 add_markdown_cell(nb, intro_markdown)
@@ -61,25 +61,31 @@ add_markdown_cell(nb, plotting_series_markdown)
 plotting_series_code = """
 import matplotlib.pyplot as plt
 
-# Filter the data to include only the teams we're interested in
-teams_to_plot = ['NE', 'NYJ', 'MIA', 'BUF']
-filtered_standings = standings[standings.team.isin(teams_to_plot)]
+# Filter the data to include only the divisions we're interested in
+divisions_to_plot = standings['division'].unique()
 
-# Pivot the data to have teams as columns and seasons as rows
+# Pivot the data to have divisions as columns and seasons as rows
 # This restructures the DataFrame for easier plotting
-pivoted_standings = filtered_standings.pivot(index='season', columns='team', values='pct')
+pivoted_standings = standings.pivot_table(index='season', columns='division', values='win_pct', aggfunc='mean')
 
 # Create a line chart to visualize the data
-# We loop through each team to plot their performance over time
+# We loop through each division to plot their performance over time
 plt.figure(figsize=(10, 6))
-for team in teams_to_plot:
-    plt.plot(pivoted_standings.index, pivoted_standings[team], marker='o', label=team)
+for division in divisions_to_plot:
+    plt.plot(pivoted_standings.index, pivoted_standings[division], marker='o', label=division)
+
+# Differentiate conferences by color
+conference_colors = {'AFC': 'blue', 'NFC': 'green'}
+for conference in standings['conference'].unique():
+    conference_divisions = standings[standings['conference'] == conference]['division'].unique()
+    for division in conference_divisions:
+        plt.plot(pivoted_standings.index, pivoted_standings[division], marker='o', label=f"{conference} - {division}", color=conference_colors[conference])
 
 # Add title, labels, and legend to make the chart informative
-plt.title('NFL Team Win Percentages Over Time')
+plt.title('NFL Division Win Percentages Over Time')
 plt.xlabel('Season')
 plt.ylabel('Win Percentage')
-plt.legend(title='Team')
+plt.legend(title='Division')
 plt.grid(True)
 # Display the plot
 plt.show()
