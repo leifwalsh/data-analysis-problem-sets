@@ -147,6 +147,75 @@ plt.show()
 
 add_code_cell(nb, grouped_bars_code)
 
+# Markdown cell for grouping by division and conference
+grouping_markdown = """
+## Grouping by Division and Conference
+
+In addition to comparing team performance, we can analyze how teams perform on a larger scale by grouping them into divisions and conferences. This allows us to see broader trends and make comparisons on a higher level of aggregation.
+
+Let's calculate and plot the mean and quantiles of win percentages grouped by division and conference. This will give us insights into the overall performance characteristics of these groups.
+
+### Mean Win Percentage by Division
+
+First, we'll calculate the mean win percentage for each division and plot a bar chart to visualize it.
+"""
+add_markdown_cell(nb, grouping_markdown)
+
+# Code cell for mean win percentage by division
+mean_division_code = """
+# Calculate the mean win percentage by division
+mean_win_pct_by_division = standings.groupby('division')['win_pct'].mean()
+
+# Plot the mean win percentage by division
+mean_win_pct_by_division.plot(kind='bar', figsize=(10, 6))
+plt.title('Mean Win Percentage by Division')
+plt.xlabel('Division')
+plt.ylabel('Mean Win Percentage')
+plt.show()
+"""
+add_code_cell(nb, mean_division_code)
+
+# Markdown cell for win percentage quantiles by conference
+quantiles_conference_markdown = """
+### Win Percentage Quantiles by Conference
+
+Next, we'll calculate the quantiles of win percentages for each conference. This will show us the distribution of team performance within each conference.
+
+We'll plot the 25th, 50th (median), and 75th percentiles for each conference.
+"""
+add_markdown_cell(nb, quantiles_conference_markdown)
+
+# Code cell for win percentage quantiles by conference
+quantiles_conference_code = """
+# Calculate the quantiles of win percentage by conference
+quantiles_by_conference = standings.groupby('conference')['win_pct'].quantile([0.25, 0.5, 0.75]).unstack()
+
+# Plot the quantiles of win percentage by conference
+quantiles_by_conference.plot(kind='bar', figsize=(10, 6))
+plt.title('Win Percentage Quantiles by Conference')
+plt.xlabel('Conference')
+plt.ylabel('Win Percentage')
+plt.legend(title='Quantile')
+plt.show()
+"""
+add_code_cell(nb, quantiles_conference_code)
+
+# Markdown cell for example problems
+example_problems_markdown = """
+## Example Problems
+
+Now that you've learned about plotting multiple series, stacked and grouped bar charts, and grouping statistics, it's time to put your knowledge to the test. Below are a few problems for you to solve using the NFL data. Try to work through these on your own before looking at the solutions.
+
+1. **Divisional Dominance**: Using a line chart, plot the mean win percentage for each division over the last five seasons. Which division appears to be the strongest?
+
+2. **Conference Comparison**: Create a stacked bar chart showing the win percentage for each conference, with the bars divided by division. What trends do you notice about the divisions within each conference?
+
+3. **Performance Peaks**: Using a scatter plot, visualize the 75th percentile of win percentages for teams in the 'NFC East' division over time. What does this tell you about the top-performing teams in this division?
+
+Remember to label your axes and provide a legend where necessary to make your charts informative.
+"""
+add_markdown_cell(nb, example_problems_markdown)
+
 # Save the revised notebook
 with open('3.2-separate-series.ipynb', 'w', encoding='utf-8') as f:
     nbformat.write(nb, f)
