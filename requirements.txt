@@ -47,7 +47,7 @@ greenlet==3.0.2
 idna==3.7
 importlib-metadata==6.11.0
 iniconfig==2.0.0
-ipycanvas==0.13.1
+ipycanvas==0.13.2
 ipyevents==2.0.2
 ipykernel==6.29.4
 ipyleaflet==0.18.2
