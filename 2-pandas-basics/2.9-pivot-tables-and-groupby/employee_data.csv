@@ -1,0 +1,301 @@
+Employee ID,Age,Salary,YOE,Department,Job Title,Performance Rating,Education Level
+1,57,90788,9,Finance,Manager,Outstanding,Bachelors
+2,32,58734,7,Customer Service,Clerk,Outstanding,Masters
+3,28,65207,1,Sales,Clerk,Outstanding,PhD
+4,29,83856,1,HR,Director,Meets Expectations,Masters
+5,31,67558,2,HR,Clerk,Meets Expectations,Masters
+6,25,96723,3,Marketing,Analyst,Outstanding,Masters
+7,35,74646,8,Sales,Manager,Exceeds Expectations,PhD
+8,20,75228,8,Sales,Associate,Needs Improvement,PhD
+9,36,73847,5,IT,Coordinator,Exceeds Expectations,Masters
+10,21,68662,5,Customer Service,Director,Needs Improvement,Bachelors
+11,32,96163,1,Customer Service,Associate,Exceeds Expectations,PhD
+12,27,51200,2,Marketing,Coordinator,Needs Improvement,PhD
+13,26,66701,1,R&D,Clerk,Meets Expectations,PhD
+14,45,52502,9,HR,Coordinator,Needs Improvement,Bachelors
+15,40,69213,6,IT,Clerk,Meets Expectations,PhD
+16,57,98534,7,IT,Director,Exceeds Expectations,Bachelors
+17,38,76050,3,Customer Service,Associate,Exceeds Expectations,Masters
+18,40,90570,6,HR,Manager,Outstanding,Bachelors
+19,31,77100,5,Marketing,Coordinator,Meets Expectations,Bachelors
+20,48,61754,4,Finance,Coordinator,Exceeds Expectations,Bachelors
+21,49,57519,1,Sales,Manager,Needs Improvement,PhD
+22,34,85721,7,Finance,Intern,Needs Improvement,PhD
+23,24,73209,3,IT,Coordinator,Exceeds Expectations,PhD
+24,43,76041,2,Sales,Manager,Exceeds Expectations,Bachelors
+25,43,79528,5,IT,Director,Needs Improvement,Masters
+26,50,69190,5,Customer Service,Associate,Exceeds Expectations,Bachelors
+27,52,78381,1,Marketing,Coordinator,Exceeds Expectations,Masters
+28,42,97860,9,IT,Associate,Needs Improvement,PhD
+29,33,64028,8,R&D,Clerk,Meets Expectations,Masters
+30,29,54946,8,Sales,Clerk,Meets Expectations,PhD
+31,27,95418,7,IT,Manager,Exceeds Expectations,PhD
+32,42,66489,2,Finance,Coordinator,Needs Improvement,Masters
+33,21,79840,8,Finance,Intern,Needs Improvement,Masters
+34,20,55278,3,HR,Manager,Exceeds Expectations,Bachelors
+35,37,81859,5,Finance,Manager,Meets Expectations,PhD
+36,28,72740,6,Sales,Associate,Needs Improvement,Masters
+37,44,90889,7,R&D,Associate,Outstanding,PhD
+38,33,87201,8,R&D,Coordinator,Needs Improvement,Bachelors
+39,28,63058,3,Sales,Analyst,Needs Improvement,Masters
+40,50,93101,1,Finance,Coordinator,Needs Improvement,PhD
+41,27,94196,6,IT,Intern,Outstanding,PhD
+42,23,95677,3,R&D,Coordinator,Exceeds Expectations,PhD
+43,26,65662,8,Sales,Director,Outstanding,Masters
+44,41,71328,8,IT,Manager,Meets Expectations,Bachelors
+45,23,69227,2,HR,Clerk,Exceeds Expectations,PhD
+46,24,89240,2,Marketing,Intern,Exceeds Expectations,Bachelors
+47,44,89452,5,R&D,Manager,Outstanding,PhD
+48,32,63954,7,R&D,Coordinator,Needs Improvement,Masters
+49,46,84531,6,IT,Associate,Needs Improvement,PhD
+50,36,89309,7,Sales,Analyst,Outstanding,Bachelors
+51,38,96505,5,HR,Manager,Outstanding,PhD
+52,35,77940,2,Marketing,Analyst,Meets Expectations,Masters
+53,20,56884,2,Sales,Intern,Outstanding,PhD
+54,24,79864,6,IT,Manager,Outstanding,Bachelors
+55,45,55138,2,Marketing,Clerk,Meets Expectations,Masters
+56,54,54321,3,Customer Service,Analyst,Meets Expectations,PhD
+57,43,57078,7,Customer Service,Associate,Outstanding,Masters
+58,27,52547,3,Sales,Intern,Meets Expectations,Masters
+59,46,84350,4,R&D,Coordinator,Meets Expectations,PhD
+60,45,90296,4,Marketing,Associate,Needs Improvement,PhD
+61,42,64553,3,HR,Intern,Needs Improvement,PhD
+62,29,52559,4,R&D,Analyst,Needs Improvement,PhD
+63,23,81077,1,IT,Manager,Outstanding,Masters
+64,59,81842,1,Finance,Analyst,Meets Expectations,Masters
+65,43,75291,2,Customer Service,Coordinator,Meets Expectations,Bachelors
+66,56,73994,6,Sales,Director,Exceeds Expectations,Bachelors
+67,47,76282,1,Sales,Clerk,Needs Improvement,PhD
+68,57,54890,6,Customer Service,Coordinator,Meets Expectations,PhD
+69,39,78904,9,IT,Manager,Meets Expectations,Bachelors
+70,58,57061,9,Customer Service,Clerk,Meets Expectations,Masters
+71,28,94927,1,R&D,Associate,Needs Improvement,Masters
+72,52,56108,1,HR,Clerk,Exceeds Expectations,PhD
+73,54,86389,1,IT,Intern,Exceeds Expectations,Bachelors
+74,30,73529,9,HR,Analyst,Needs Improvement,PhD
+75,43,96317,6,Customer Service,Director,Exceeds Expectations,Bachelors
+76,35,81208,4,Marketing,Manager,Exceeds Expectations,Bachelors
+77,43,71738,5,Sales,Clerk,Outstanding,Bachelors
+78,45,68187,1,Sales,Associate,Exceeds Expectations,Bachelors
+79,27,72422,9,HR,Analyst,Exceeds Expectations,Masters
+80,48,85334,7,IT,Analyst,Outstanding,PhD
+81,30,60336,4,Finance,Analyst,Outstanding,Bachelors
+82,52,53726,1,Sales,Associate,Meets Expectations,Bachelors
+83,44,68532,9,Customer Service,Manager,Exceeds Expectations,Bachelors
+84,43,87207,2,Sales,Coordinator,Needs Improvement,PhD
+85,21,62195,7,IT,Analyst,Exceeds Expectations,Bachelors
+86,33,61967,7,IT,Associate,Outstanding,PhD
+87,23,50379,2,HR,Intern,Outstanding,Bachelors
+88,20,52592,4,Sales,Clerk,Exceeds Expectations,PhD
+89,33,74174,8,Customer Service,Intern,Meets Expectations,Bachelors
+90,26,56833,4,Sales,Associate,Meets Expectations,PhD
+91,41,61238,3,HR,Analyst,Meets Expectations,PhD
+92,26,88778,4,Sales,Coordinator,Outstanding,Masters
+93,22,89040,1,R&D,Clerk,Meets Expectations,Bachelors
+94,32,70118,3,HR,Analyst,Meets Expectations,Bachelors
+95,47,71601,9,Sales,Clerk,Outstanding,Bachelors
+96,41,78102,3,Finance,Associate,Outstanding,Bachelors
+97,31,92660,1,R&D,Associate,Outstanding,PhD
+98,27,89826,2,Finance,Coordinator,Outstanding,Bachelors
+99,33,69227,4,Customer Service,Director,Exceeds Expectations,Bachelors
+100,28,65004,5,Sales,Intern,Outstanding,Masters
+101,31,78133,9,R&D,Analyst,Exceeds Expectations,Masters
+102,32,76214,9,HR,Clerk,Meets Expectations,Bachelors
+103,40,92482,9,IT,Associate,Outstanding,Bachelors
+104,50,54830,3,Finance,Director,Meets Expectations,Masters
+105,56,94409,9,HR,Manager,Needs Improvement,PhD
+106,59,50818,7,IT,Coordinator,Meets Expectations,Bachelors
+107,27,99966,5,HR,Associate,Outstanding,Bachelors
+108,24,66903,1,HR,Intern,Needs Improvement,Masters
+109,38,80165,6,Customer Service,Manager,Needs Improvement,PhD
+110,52,60983,6,Marketing,Coordinator,Meets Expectations,Bachelors
+111,33,84461,7,Finance,Clerk,Exceeds Expectations,Bachelors
+112,30,91867,2,IT,Analyst,Needs Improvement,PhD
+113,43,88333,8,Customer Service,Clerk,Exceeds Expectations,PhD
+114,37,74571,7,IT,Manager,Needs Improvement,Masters
+115,27,75594,6,R&D,Coordinator,Needs Improvement,Bachelors
+116,44,61806,8,Customer Service,Manager,Needs Improvement,Masters
+117,30,83712,2,Sales,Intern,Meets Expectations,PhD
+118,48,81902,8,IT,Associate,Meets Expectations,Masters
+119,40,63719,6,Finance,Associate,Meets Expectations,Bachelors
+120,52,83500,7,Marketing,Intern,Needs Improvement,PhD
+121,32,75280,8,HR,Clerk,Exceeds Expectations,Masters
+122,21,52791,7,HR,Director,Exceeds Expectations,PhD
+123,50,77788,8,Customer Service,Director,Meets Expectations,Bachelors
+124,44,87521,6,Finance,Intern,Meets Expectations,Masters
+125,38,79434,7,IT,Associate,Meets Expectations,Masters
+126,53,91377,9,Marketing,Coordinator,Outstanding,PhD
+127,22,62810,8,Customer Service,Director,Meets Expectations,Bachelors
+128,48,89964,5,HR,Coordinator,Exceeds Expectations,Masters
+129,59,64313,3,R&D,Coordinator,Exceeds Expectations,PhD
+130,54,79643,5,HR,Manager,Exceeds Expectations,Masters
+131,30,66209,1,Marketing,Analyst,Exceeds Expectations,Masters
+132,52,50042,1,R&D,Analyst,Outstanding,Masters
+133,38,76198,4,Marketing,Director,Outstanding,Bachelors
+134,42,83080,6,IT,Coordinator,Outstanding,Masters
+135,26,89502,1,R&D,Director,Meets Expectations,PhD
+136,22,74407,4,HR,Analyst,Needs Improvement,Masters
+137,27,58186,7,IT,Manager,Meets Expectations,Bachelors
+138,59,50373,6,IT,Analyst,Needs Improvement,PhD
+139,35,83489,2,HR,Clerk,Needs Improvement,Bachelors
+140,25,99034,2,Customer Service,Clerk,Outstanding,Masters
+141,37,57880,9,HR,Coordinator,Exceeds Expectations,Bachelors
+142,40,88704,5,Finance,Coordinator,Meets Expectations,PhD
+143,42,56645,8,Sales,Manager,Outstanding,Masters
+144,57,65123,1,IT,Coordinator,Meets Expectations,Bachelors
+145,33,55516,2,HR,Clerk,Exceeds Expectations,PhD
+146,53,58345,8,IT,Coordinator,Outstanding,PhD
+147,40,74909,2,HR,Coordinator,Meets Expectations,PhD
+148,30,61024,6,HR,Clerk,Outstanding,Masters
+149,52,88148,5,HR,Intern,Needs Improvement,PhD
+150,45,54056,6,Sales,Associate,Needs Improvement,PhD
+151,41,59078,7,R&D,Clerk,Outstanding,Masters
+152,59,54763,3,IT,Intern,Needs Improvement,Masters
+153,52,52994,6,Finance,Intern,Needs Improvement,Bachelors
+154,39,85652,4,HR,Associate,Outstanding,Masters
+155,45,92627,4,Sales,Associate,Exceeds Expectations,Bachelors
+156,34,84490,6,R&D,Director,Meets Expectations,PhD
+157,33,63442,2,Sales,Intern,Needs Improvement,Bachelors
+158,40,51888,8,HR,Coordinator,Meets Expectations,Masters
+159,26,82061,8,Marketing,Director,Outstanding,Masters
+160,33,95412,1,R&D,Coordinator,Outstanding,PhD
+161,35,70986,9,IT,Director,Outstanding,Bachelors
+162,44,66202,7,Finance,Associate,Meets Expectations,Masters
+163,29,85730,2,R&D,Manager,Outstanding,Masters
+164,22,51182,3,Sales,Analyst,Exceeds Expectations,Bachelors
+165,27,58336,1,Marketing,Intern,Meets Expectations,Masters
+166,25,84655,5,Sales,Clerk,Outstanding,PhD
+167,56,63920,5,Marketing,Intern,Outstanding,Bachelors
+168,57,75532,7,Finance,Coordinator,Outstanding,Bachelors
+169,41,65787,2,Sales,Coordinator,Meets Expectations,PhD
+170,33,53820,1,Marketing,Associate,Exceeds Expectations,Bachelors
+171,47,60527,5,Sales,Director,Exceeds Expectations,PhD
+172,33,79283,4,HR,Analyst,Exceeds Expectations,Masters
+173,34,92284,1,R&D,Intern,Outstanding,PhD
+174,43,77416,6,Finance,Intern,Outstanding,Masters
+175,36,98062,2,R&D,Associate,Outstanding,Bachelors
+176,48,65893,2,Customer Service,Intern,Outstanding,Bachelors
+177,23,90781,7,HR,Analyst,Exceeds Expectations,Bachelors
+178,22,65905,1,Customer Service,Clerk,Needs Improvement,PhD
+179,34,76628,3,Finance,Associate,Meets Expectations,PhD
+180,20,52599,9,IT,Clerk,Needs Improvement,Bachelors
+181,49,81811,4,Finance,Associate,Exceeds Expectations,PhD
+182,31,76786,8,Sales,Manager,Exceeds Expectations,Bachelors
+183,55,70522,3,Sales,Associate,Meets Expectations,PhD
+184,49,70302,6,R&D,Analyst,Meets Expectations,Masters
+185,53,93730,7,HR,Intern,Meets Expectations,Masters
+186,22,66230,1,Sales,Intern,Needs Improvement,PhD
+187,40,53110,5,Sales,Manager,Meets Expectations,PhD
+188,39,78336,3,Marketing,Manager,Exceeds Expectations,PhD
+189,52,95178,4,Customer Service,Director,Outstanding,PhD
+190,48,72225,2,Customer Service,Director,Meets Expectations,Bachelors
+191,38,98638,1,Finance,Clerk,Exceeds Expectations,Masters
+192,51,86613,6,Sales,Associate,Meets Expectations,Bachelors
+193,48,88394,8,HR,Coordinator,Exceeds Expectations,Masters
+194,50,69686,1,Customer Service,Intern,Exceeds Expectations,PhD
+195,30,93227,3,Sales,Coordinator,Outstanding,Masters
+196,28,56645,3,R&D,Director,Exceeds Expectations,PhD
+197,55,73944,1,IT,Manager,Needs Improvement,PhD
+198,52,74872,6,Customer Service,Associate,Exceeds Expectations,PhD
+199,28,87061,2,Marketing,Clerk,Meets Expectations,Masters
+200,40,88919,2,R&D,Clerk,Meets Expectations,PhD
+201,33,67870,7,Sales,Analyst,Needs Improvement,Masters
+202,35,69237,4,R&D,Coordinator,Outstanding,Bachelors
+203,20,75449,3,HR,Manager,Needs Improvement,PhD
+204,39,91294,2,Customer Service,Director,Outstanding,Bachelors
+205,44,57713,2,Customer Service,Coordinator,Outstanding,Bachelors
+206,40,77163,3,Sales,Intern,Exceeds Expectations,PhD
+207,35,79363,8,IT,Analyst,Outstanding,PhD
+208,50,65437,6,HR,Coordinator,Exceeds Expectations,PhD
+209,47,91899,3,Marketing,Intern,Meets Expectations,Masters
+210,34,50174,5,Customer Service,Associate,Needs Improvement,Bachelors
+211,39,67417,8,Customer Service,Manager,Needs Improvement,PhD
+212,46,79507,4,Sales,Intern,Meets Expectations,Masters
+213,42,86611,6,Finance,Coordinator,Outstanding,PhD
+214,27,87827,1,IT,Intern,Outstanding,PhD
+215,55,54918,3,Sales,Analyst,Exceeds Expectations,Bachelors
+216,54,94385,2,Marketing,Clerk,Outstanding,Masters
+217,56,51983,5,Finance,Analyst,Needs Improvement,Bachelors
+218,56,59443,5,Finance,Director,Meets Expectations,Masters
+219,52,59808,7,Finance,Intern,Exceeds Expectations,Bachelors
+220,39,53356,4,HR,Manager,Outstanding,Masters
+221,23,91637,9,R&D,Coordinator,Outstanding,Masters
+222,44,84240,9,HR,Coordinator,Needs Improvement,Bachelors
+223,39,88309,8,Sales,Clerk,Exceeds Expectations,PhD
+224,57,83170,2,R&D,Intern,Exceeds Expectations,Masters
+225,50,89246,9,Finance,Manager,Exceeds Expectations,PhD
+226,58,55479,8,Customer Service,Director,Needs Improvement,PhD
+227,59,69420,9,Customer Service,Intern,Outstanding,PhD
+228,25,71556,3,Sales,Associate,Needs Improvement,Masters
+229,35,94960,3,Marketing,Intern,Meets Expectations,Masters
+230,43,76414,6,R&D,Intern,Outstanding,PhD
+231,52,74639,6,Sales,Intern,Exceeds Expectations,Bachelors
+232,30,82379,4,Customer Service,Coordinator,Exceeds Expectations,Masters
+233,22,90669,6,R&D,Clerk,Meets Expectations,Bachelors
+234,44,67042,3,IT,Coordinator,Meets Expectations,PhD
+235,54,93165,8,Sales,Intern,Exceeds Expectations,Masters
+236,50,88392,5,Sales,Intern,Meets Expectations,Bachelors
+237,37,55159,2,Finance,Clerk,Needs Improvement,Bachelors
+238,24,61036,7,Finance,Manager,Meets Expectations,PhD
+239,20,67974,9,Marketing,Coordinator,Outstanding,Masters
+240,34,63671,2,HR,Clerk,Exceeds Expectations,Bachelors
+241,37,97450,9,IT,Director,Needs Improvement,PhD
+242,59,71436,2,IT,Analyst,Needs Improvement,Bachelors
+243,55,76474,7,Marketing,Manager,Needs Improvement,Masters
+244,37,88284,3,Customer Service,Analyst,Outstanding,Bachelors
+245,48,94177,7,R&D,Clerk,Exceeds Expectations,PhD
+246,42,82839,2,Sales,Manager,Exceeds Expectations,Bachelors
+247,58,92587,9,IT,Intern,Meets Expectations,Bachelors
+248,30,91863,4,Customer Service,Associate,Needs Improvement,PhD
+249,33,53452,8,Sales,Clerk,Exceeds Expectations,Masters
+250,26,66851,1,HR,Intern,Outstanding,Masters
+251,45,74115,8,HR,Clerk,Meets Expectations,PhD
+252,58,61168,1,IT,Associate,Meets Expectations,PhD
+253,20,63004,1,Customer Service,Manager,Outstanding,PhD
+254,42,77750,8,Sales,Manager,Needs Improvement,PhD
+255,36,62467,4,R&D,Manager,Outstanding,Bachelors
+256,39,93550,6,Customer Service,Director,Outstanding,Masters
+257,29,69606,3,R&D,Intern,Outstanding,Masters
+258,48,76885,6,R&D,Manager,Exceeds Expectations,Masters
+259,30,71979,2,Marketing,Manager,Exceeds Expectations,PhD
+260,24,70575,3,R&D,Clerk,Needs Improvement,PhD
+261,43,53478,6,IT,Clerk,Outstanding,PhD
+262,34,57884,4,Finance,Coordinator,Outstanding,Bachelors
+263,41,61380,4,HR,Associate,Meets Expectations,Masters
+264,23,51389,7,IT,Analyst,Exceeds Expectations,PhD
+265,44,69478,2,R&D,Coordinator,Exceeds Expectations,PhD
+266,36,71478,9,Customer Service,Intern,Exceeds Expectations,Masters
+267,35,88173,2,Finance,Coordinator,Needs Improvement,PhD
+268,27,62306,9,Sales,Director,Outstanding,Masters
+269,34,50052,7,Sales,Associate,Needs Improvement,Bachelors
+270,33,62410,5,Marketing,Intern,Outstanding,Bachelors
+271,35,86383,7,Marketing,Clerk,Needs Improvement,PhD
+272,45,91698,6,HR,Manager,Needs Improvement,Masters
+273,40,67875,5,IT,Clerk,Needs Improvement,Bachelors
+274,41,74953,8,Sales,Clerk,Meets Expectations,Masters
+275,49,96813,3,Customer Service,Clerk,Meets Expectations,PhD
+276,57,60987,1,Marketing,Analyst,Meets Expectations,Bachelors
+277,42,79619,3,Marketing,Clerk,Exceeds Expectations,PhD
+278,47,97887,1,Finance,Coordinator,Meets Expectations,Bachelors
+279,32,81943,6,IT,Director,Meets Expectations,PhD
+280,32,59904,5,Marketing,Manager,Exceeds Expectations,Bachelors
+281,46,74988,2,R&D,Clerk,Exceeds Expectations,Masters
+282,32,74275,5,IT,Intern,Needs Improvement,PhD
+283,27,71275,6,Customer Service,Director,Exceeds Expectations,Masters
+284,43,76411,3,Customer Service,Director,Exceeds Expectations,Masters
+285,59,72095,4,IT,Manager,Needs Improvement,Bachelors
+286,32,59030,2,Marketing,Manager,Meets Expectations,Bachelors
+287,58,87208,6,IT,Associate,Needs Improvement,Bachelors
+288,47,51018,2,IT,Intern,Needs Improvement,Masters
+289,25,67931,2,Finance,Analyst,Needs Improvement,PhD
+290,54,92433,8,Sales,Director,Needs Improvement,Masters
+291,53,81325,2,HR,Intern,Needs Improvement,Bachelors
+292,46,83039,3,Customer Service,Coordinator,Outstanding,Bachelors
+293,25,82738,7,R&D,Intern,Exceeds Expectations,Bachelors
+294,29,92838,1,Marketing,Intern,Exceeds Expectations,Masters
+295,45,69903,8,Finance,Associate,Needs Improvement,Masters
+296,47,94694,8,R&D,Associate,Needs Improvement,Masters
+297,21,83901,5,Marketing,Manager,Exceeds Expectations,Bachelors
+298,38,78114,4,Sales,Associate,Outstanding,Masters
+299,50,54780,3,Customer Service,Intern,Meets Expectations,Masters
+300,52,97377,8,R&D,Clerk,Meets Expectations,Masters
