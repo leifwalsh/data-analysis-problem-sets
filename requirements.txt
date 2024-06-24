@@ -155,7 +155,7 @@ soupsieve==2.5
 sqlalchemy==2.0.30
 stack-data==0.6.3
 statsmodels==0.14.2
-streamlit==1.34.0
+streamlit==1.36.0
 tenacity==8.2.3
 terminado==0.18.0
 tinycss2==1.2.1
